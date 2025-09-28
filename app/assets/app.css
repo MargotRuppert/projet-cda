@@ -1,2 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui"{
+    themes: all;
+};
+    
+
+@theme{
+    --color-pink: #FF7398;
+    --color-white: #FAFAFA;
+    --color-black: #292929;
+    --color-orange: #EBAD35;
+    --color-color-header: #230C43;
+    --color-title: #C4D667;
+    --font-titan: "Titan One", sans-serif;
+    --font-catamaran: "Catamaran", sans-serif;
+    --font-exo: "Exo", sans-serif;
+}
+
+html {
+    background-color: #292929;
+}

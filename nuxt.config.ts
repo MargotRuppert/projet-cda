@@ -11,11 +11,13 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/scripts',
-    'pinia-plugin-persistedstate'
   ],
 
   vite: {
     plugins: [tailwindcss()],
   },
   css: ["~/assets/app.css"],
+
+
 })
+
