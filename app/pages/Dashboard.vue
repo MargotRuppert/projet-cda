@@ -113,7 +113,7 @@
               </label>
             </div>
 
-            <button type="submit" class="btn btn-primary w-full">
+            <button type="submit" class="btn border-2 border-orange w-full bg-black hover:bg-orange hover:text-white">
               Ajouter le lieu
             </button>
           </form>
